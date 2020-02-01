@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="KinematicsMachines.exe"/>
+    <OBJFILES value="KinematicsMachines.obj MainForm.obj about.obj MessageForm.obj 
+      KinematicsMachines_utils.obj"/>
+    <RESFILES value="KinematicsMachines.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainForm.dfm about.dfm MessageForm.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi ibxpress.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="KinematicsMachines.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\Lib;..;$(BCB)\lib\obj"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -w- -Vx -Ve -X- -r- 
+      -a8 -b- -k -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="KinematicsMachines.cpp" FORMNAME="" UNITNAME="KinematicsMachines" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="KinematicsMachines.res" FORMNAME="" UNITNAME="KinematicsMachines" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainForm.cpp" FORMNAME="FormMain" UNITNAME="MainForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="about.cpp" FORMNAME="FormAbout" UNITNAME="about" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MessageForm.cpp" FORMNAME="FormMessage" UNITNAME="MessageForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="KinematicsMachines_utils.obj" FORMNAME="" UNITNAME="KinematicsMachines_utils" CONTAINERID="OBJTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=23
+Release=5
+Build=850
+Debug=0
+PreRelease=0
+Special=1
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=КнААПО
+FileDescription=Расчет i,j,k - по заданным углам A,B,C ( и наоборот).
+FileVersion=1.23.5.850
+InternalName=KinematicsMachines.exe
+LegalCopyright=
+LegalTrademarks=RAE
+OriginalFilename=KinematicsMachines.exe
+ProductName=Кинематика станков
+ProductVersion=2.0.0.0
+Comments=Расчет i,j,k - по заданным углам A,B,C ( и наоборот).
+SpecialBuild=для КнААПО
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=$(BCB)\include;$(BCB)\include\vcl
+Item1=..;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\;..;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=$(BCB)\Lib;..;$(BCB)\lib\obj
+Item1=$(BCB)\Lib;..\;..\..\Lib;..;$(BCB)\lib\obj
+Item2=..\..\Lib;..;$(BCB)\lib\obj
+Item3=..\..\Lib;$(BCB)\Lib;..;$(BCB)\lib\obj
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
